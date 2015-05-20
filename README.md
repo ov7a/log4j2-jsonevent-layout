@@ -1,6 +1,6 @@
 ## What is it?
 
-This is a layout for log4j2 that generates logstash json_event formatted data, which supposed to be drop in replacement for JSONEventLayoutV1 from https://github.com/logstash/log4j-jsonevent-layout
+This is a layout for log4j2 that generates logstash json_event formatted data, which supposed to be drop in replacement for `JSONEventLayoutV1` from https://github.com/logstash/log4j-jsonevent-layout
 
 ## Usage example
 
@@ -17,6 +17,7 @@ or
 </Socket>
 ```
 
+You might need to add package info to `Configuration` node.
 Note that userFields from command-line aren't implemented. 
 
 ## Licence
